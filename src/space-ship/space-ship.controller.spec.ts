@@ -1,7 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { SpaceShipController } from './space-ship.controller';
 import { SpaceShipService } from './space-ship.service';
-import { SaveSpaceShipRequest } from './space-ship.create.dto';
 import { SpaceShip } from './space-ship';
 import { SpaceShipId } from './SpaceShipId';
 
